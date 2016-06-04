@@ -25,3 +25,5 @@ irr <- function(x, period = 1, starting.value = .1){
 
     }
 }
+
+## TODO: If there is an initial cash outflow, and all other cash flows are negative, (really irrelevant sort of case) then the optimizer will return a maximum value. Add a check that there are at least some positive cash flows.
